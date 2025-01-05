@@ -9,6 +9,9 @@ Install-Package Microsoft.EntityFrameworkCore.SqlServer
 Install-Package Microsoft.EntityFrameworkCore.Tools
 Version Number 6.07(to 6.1)
 
+dotnet add package Microsoft.AspNetCore.Mvc.Testing 
+dotnet add package Microsoft.VisualStudio.TestTools.UnitTesting 
+
 appsettings.json: Contains the connection string for connecting to the SQL Server database.
 
 ItemController         - Contains controllers for handling business logic.
